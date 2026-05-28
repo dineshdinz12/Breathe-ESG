@@ -1,2 +1,2 @@
 [start]
-cmd = "cd backend && python manage.py migrate --noinput && python manage.py seed_demo && gunicorn breathe_esg.wsgi:application --bind 0.0.0.0:$PORT --workers 2 --timeout 120"
+cmd = "cd backend && python manage.py migrate --noinput && python manage.py seed_demo || echo 'seed_demo skipped' && gunicorn breathe_esg.wsgi:application --bind 0.0.0.0:$PORT --workers 2 --timeout 120"
