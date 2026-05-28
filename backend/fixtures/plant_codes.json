@@ -1,0 +1,13 @@
+[
+  {"model": "core.tenant", "pk": 1, "fields": {"name": "Acme Industries Ltd", "slug": "acme-industries", "created_at": "2024-01-01T00:00:00Z"}},
+  {"model": "core.plantcodelookup", "pk": 1, "fields": {"tenant": 1, "code": "UK01", "facility_name": "Acme Birmingham Manufacturing",  "country": "United Kingdom", "region": "West Midlands",    "grid_region": "GB"}},
+  {"model": "core.plantcodelookup", "pk": 2, "fields": {"tenant": 1, "code": "UK02", "facility_name": "Acme Leeds Warehouse",            "country": "United Kingdom", "region": "Yorkshire",         "grid_region": "GB"}},
+  {"model": "core.plantcodelookup", "pk": 3, "fields": {"tenant": 1, "code": "UK03", "facility_name": "Acme London HQ",                  "country": "United Kingdom", "region": "Greater London",    "grid_region": "GB"}},
+  {"model": "core.plantcodelookup", "pk": 4, "fields": {"tenant": 1, "code": "DE01", "facility_name": "Acme München Assembly Plant",     "country": "Germany",        "region": "Bavaria",           "grid_region": "DE"}},
+  {"model": "core.plantcodelookup", "pk": 5, "fields": {"tenant": 1, "code": "DE02", "facility_name": "Acme Hamburg Distribution",       "country": "Germany",        "region": "Hamburg",           "grid_region": "DE"}},
+  {"model": "core.plantcodelookup", "pk": 6, "fields": {"tenant": 1, "code": "US01", "facility_name": "Acme Detroit Plant",              "country": "United States",  "region": "Michigan",          "grid_region": "US"}},
+  {"model": "core.plantcodelookup", "pk": 7, "fields": {"tenant": 1, "code": "US02", "facility_name": "Acme Chicago Office",             "country": "United States",  "region": "Illinois",          "grid_region": "US"}},
+  {"model": "core.plantcodelookup", "pk": 8, "fields": {"tenant": 1, "code": "AU01", "facility_name": "Acme Sydney Operations",          "country": "Australia",      "region": "New South Wales",   "grid_region": "AU"}},
+  {"model": "core.plantcodelookup", "pk": 9, "fields": {"tenant": 1, "code": "IN01", "facility_name": "Acme Bangalore Tech Centre",      "country": "India",          "region": "Karnataka",         "grid_region": "IN"}},
+  {"model": "core.plantcodelookup", "pk":10, "fields": {"tenant": 1, "code": "FR01", "facility_name": "Acme Paris Sales Office",         "country": "France",         "region": "Île-de-France",     "grid_region": "FR"}}
+]
